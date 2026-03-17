@@ -14,7 +14,7 @@ int somal4(int M[tam][tam]) {
 int somac2(int M[tam][tam]) {
     int i, soma = 0;
     for (i = 0; i < tam; i++) {
-        soma += M[i][1]; // coluna 2 → índice 1
+        soma += M[i][1];
     }
     return soma;
 }
@@ -47,8 +47,6 @@ int somatudo(int M[tam][tam]) {
 
 int main() {
     int M[tam][tam], i, j, opc;
-
-    // leitura da matriz
     for (i = 0; i < tam; i++) {
         for (j = 0; j < tam; j++) {
             printf("Informe o valor na posicao [%d][%d]: ", i + 1, j + 1);
@@ -57,7 +55,7 @@ int main() {
     }
 
     do {
-        system("cls"); // limpa tela (Windows)
+        system("cls");
         printf("A matriz lida eh:\n");
         for (i = 0; i < tam; i++) {
             for (j = 0; j < tam; j++) {

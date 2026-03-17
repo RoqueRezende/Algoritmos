@@ -15,7 +15,6 @@ int contarOcorrencias(int vet[], int num, int tamanho)
 
     return cont; 
 }
-
 int main()
 {
     int vet[TAM];
